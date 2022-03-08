@@ -1,27 +1,22 @@
-import { mdsvex } from 'mdsvex';
-import mdsvexConfig from './mdsvex.config.js';
-import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
-
+export default {
 	kit: {
-		adapter: adapter(),
-
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
-	},
-
-	preprocess: [
-		preprocess({
-			postcss: true
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: null,
+			precompress: false
 		}),
-		mdsvex(mdsvexConfig)
-	]
+		paths: {
+			base: '',
+		},
+		prerender: {
+			default:true
+		},
+		// If you are not using a .nojekyll file, change your appDir to something not starting with an underscore.
+		// For example, instead of '_app', use 'app_', 'internal', etc.
+		appDir: 'internal',
+	}
 };
-
-export default config;
