@@ -1,6 +1,7 @@
 /* Write your global styles here, in PostCSS syntax */
 
 @import '@fontsource/fira-mono';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500"');
 
 @tailwind base;
 

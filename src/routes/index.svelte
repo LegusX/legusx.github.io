@@ -1,15 +1,14 @@
 <script>
-    import {onMount} from "svelte"
-    import {currentDiv} from "../lib/stores.js"
+	import { onMount } from 'svelte';
 
-    onMount(()=>{
-        window.div = document.getElementById("body")
-    })
+	onMount(() => {
+		window.div = document.getElementById('body');
+	});
 </script>
 
 <div class="min-h-full min-w-full">
-    <div id="body" class="mt-[20%] bg-white">
-        <pre>
+	<div id="body" class="mt-[20%] bg-slate-200">
+		<pre>
             a 
             a
             a 
@@ -19,6 +18,7 @@
             a 
             a 
             a 
+            a
             a 
             a 
             a
@@ -81,5 +81,5 @@
             a 
             a 
         </pre>
-    </div>
+	</div>
 </div>
