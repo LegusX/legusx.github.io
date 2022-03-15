@@ -1,4 +1,4 @@
-import{S as p,i as _,s as x,e as o,t as y,c as d,a as l,h as E,d as i,b as c,g as b,H as h,I as u,v as g}from"../chunks/vendor-c83dbdae.js";function w(m){let a,n,e,r;return{c(){a=o("div"),n=o("div"),e=o("pre"),r=y(`
+import{S as p,i as _,s as x,e as o,t as y,c as d,a as l,h as E,d as i,b as c,g as b,H as u,I as h,v as g}from"../chunks/vendor-c83dbdae.js";function I(m){let a,n,e,r;return{c(){a=o("div"),n=o("div"),e=o("pre"),r=y(`
             a 
             a
             a 
@@ -8,6 +8,7 @@ import{S as p,i as _,s as x,e as o,t as y,c as d,a as l,h as E,d as i,b as c,g a
             a 
             a 
             a 
+            a
             a 
             a 
             a
@@ -79,6 +80,7 @@ import{S as p,i as _,s as x,e as o,t as y,c as d,a as l,h as E,d as i,b as c,g a
             a 
             a 
             a 
+            a
             a 
             a 
             a
@@ -140,4 +142,4 @@ import{S as p,i as _,s as x,e as o,t as y,c as d,a as l,h as E,d as i,b as c,g a
             a 
             a 
             a 
-        `),v.forEach(i),f.forEach(i),s.forEach(i),this.h()},h(){c(n,"id","body"),c(n,"class","mt-[20%] bg-white"),c(a,"class","min-h-full min-w-full")},m(t,s){b(t,a,s),h(a,n),h(n,e),h(e,r)},p:u,i:u,o:u,d(t){t&&i(a)}}}function I(m){return g(()=>{window.div=document.getElementById("body")}),[]}class R extends p{constructor(a){super();_(this,a,I,w,x,{})}}export{R as default};
+        `),v.forEach(i),f.forEach(i),s.forEach(i),this.h()},h(){c(n,"id","body"),c(n,"class","mt-[20%] bg-slate-200"),c(a,"class","min-h-full min-w-full")},m(t,s){b(t,a,s),u(a,n),u(n,e),u(e,r)},p:h,i:h,o:h,d(t){t&&i(a)}}}function w(m){return g(()=>{window.div=document.getElementById("body")}),[]}class R extends p{constructor(a){super();_(this,a,w,I,x,{})}}export{R as default};
