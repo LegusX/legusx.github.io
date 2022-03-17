@@ -8,7 +8,7 @@
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"deploy": "node ./gh-pages.js"
+		"deploy": "svelte-kit build && node ./gh-pages.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",

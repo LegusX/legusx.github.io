@@ -1,15 +1,19 @@
-<div class="min-h-screen min-w-full bg-slate-200 pt-5">
-	<h1 class="text-center text-5xl">My Projects</h1>
+<div class="min-h-screen min-w-full bg-slate-200 py-5">
+	<!-- <div class="my-10 mx-auto w-fit md:shadow-md md:p-5 md:bg-white md:rounded-md md:max-w-[80vw]">
+		<h2 class="text-4xl">My Projects</h2>
+	</div> -->
 
 	<div class="my-10 mx-auto w-fit md:shadow-md md:p-5 md:bg-white md:rounded-md md:max-w-[80vw]">
 		<h2 class="text-4xl">
 			<a href="https://auction.legusx.dev" target="_blank">Hordes.Auction</a>
 		</h2>
-		<p class="italic">2021</p>
+		<p class="italic">2020-2021</p>
 		<br />
 		<p>
 			A third party website for the game Hordes.io developed to help its players auction off items
-			instead of listing them for a flat price on the ingame store.
+			instead of listing them for a flat price on the ingame store. Due to poor planning on my part
+			it had a number of issues. Because of that, as well as some personal problems, I shut it down
+			after a couple of months.
 		</p>
 	</div>
 	<div class="my-10 mx-auto w-fit md:shadow-md md:p-5 md:bg-white md:rounded-md md:max-w-[80vw]">
@@ -35,6 +39,17 @@
 			content because I eventually realized that I had no actual plan for the game. As such, it
 			didn't really go anywhere. Regardless, it was my first real attempt at web development and
 			certainly taught me a lot.
+		</p>
+	</div>
+	<div class="my-10 mx-auto w-fit md:shadow-md md:p-5 md:bg-white md:rounded-md md:max-w-[80vw]">
+		<h2 class="text-4xl">
+			<a href="https://github.com/LegusX/Hordesbot2.js" target="_blank">HordesBot2.js</a>
+		</h2>
+		<p class="italic">2017-2018</p>
+		<br />
+		<p>
+			The (old) Discord bot for the Hordes.io Discord server. Nothing too fancy, but we used it for
+			several years and it worked well enough.
 		</p>
 	</div>
 	<div class="my-10 mx-auto w-fit md:shadow-md md:p-5 md:bg-white md:rounded-md md:max-w-[80vw]">
